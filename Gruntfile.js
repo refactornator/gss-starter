@@ -288,12 +288,14 @@ module.exports = function (grunt) {
           src: [
             '*.{ico,png,txt}',
             'images/{,*/}*.webp',
-            '{,*/}*.html',
             'styles/fonts/{,*/}*.*'
           ]
         }, {
           src: 'node_modules/apache-server-configs/dist/.htaccess',
           dest: '<%= config.dist %>/.htaccess'
+        }, {
+          src: 'bower_components/gss/dist/worker.js',
+          dest: '<%= config.dist %>/workers/gss/worker.js'
         }]
       },
       styles: {
@@ -302,6 +304,14 @@ module.exports = function (grunt) {
         cwd: '<%= config.app %>/styles',
         dest: '.tmp/styles/',
         src: '{,*/}*.css'
+      }
+    },
+
+    targethtml: {
+      dist: {
+        files: {
+          '<%= config.dist %>/index.html': '<%= config.app %>/index.html'
+        }
       }
     },
 
@@ -374,6 +384,7 @@ module.exports = function (grunt) {
     'cssmin',
     'uglify',
     'copy:dist',
+    'targethtml',
     'rev',
     'usemin',
     'htmlmin'
