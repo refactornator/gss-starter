@@ -14,7 +14,7 @@ This project was created using the [Yeoman Webapp Generator](https://github.com/
 * Installed [GSS](http://gridstylesheets.org/) using bower.
 * Removed [wiredep](https://github.com/taptapship/wiredep) because it kept breaking things.
 * Installed [grunt-targethtml](https://github.com/changer/grunt-targethtml) so [GSS's](http://gridstylesheets.org/) worker.js would be properly loaded.
-* Added some real simple GSS constraints to the head.
+* Added some real simple GSS constraints to the `<head>`.
 ```
 <style type="text/gss">
   .hero-unit[width] >= 420;
