@@ -1,5 +1,10 @@
 {
   "name": "gss-test",
+  "description": "Simple project to get you off and running with GSS.",
+  "repository": { 
+    "type" : "git",
+    "url" : "https://github.com/wlindner/gss-starter.git"
+  },
   "devDependencies": {
     "apache-server-configs": "^2.7.1",
     "grunt": "^0.4.5",
