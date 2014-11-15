@@ -10,6 +10,10 @@ Simple project to get you off and running with [GSS](http://gridstylesheets.org/
 
 [Demo](http://wl3.me/gss-starter/) can be found here. It's intentionally underwhelming.
 
+I created this repo because I think [GSS](http://gridstylesheets.org/) presents some really interesting possibilities for more natural layout of webapps, but found it cumbersome to get started.
+
+This http://vimeo.com/91393694 video provides the best explanation I've seen of what [GSS](http://gridstylesheets.org/) is.
+
 This project was created using the [Yeoman Webapp Generator](https://github.com/yeoman/generator-webapp). With a few necessary modifications to make [GSS](http://gridstylesheets.org/) work.
 * Installed [GSS](http://gridstylesheets.org/) using bower.
 * Removed [wiredep](https://github.com/taptapship/wiredep) because it kept breaking things.
@@ -23,7 +27,3 @@ This project was created using the [Yeoman Webapp Generator](https://github.com/
   .hero-unit[center-y] == ::window[center-y];
 </style>
 ```
-
-I created this repo because I think [GSS](http://gridstylesheets.org/) presents some really interesting possibilities for more natural layout of webapps, but found it cumbersome to get started.
-
-This http://vimeo.com/91393694 video provides the best explanation I've seen of what [GSS](http://gridstylesheets.org/) is.
