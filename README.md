@@ -6,7 +6,7 @@ Simple project to get you off and running with [GSS](http://gridstylesheets.org/
 ## Getting Started
 1. Clone the repo.
 2. `$ npm install && bower install`
-3. `grunt serve`
+3. `$ grunt serve`
 
 [Demo](http://wl3.me/gss-starter/) can be found here. It's intentionally underwhelming.
 
